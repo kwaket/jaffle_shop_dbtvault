@@ -43,4 +43,7 @@ models:
       sats:
         tags:
           - 'satellite'
-
+    data_marts:
+      tags:
+        - 'data_marts'
+      materialized: view
