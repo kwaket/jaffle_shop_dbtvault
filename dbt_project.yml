@@ -43,6 +43,10 @@ models:
       sats:
         tags:
           - 'satellite'
+      pit:
+        materialized: view
+        tags:
+          - 'pit'
     data_marts:
       tags:
         - 'data_marts'
