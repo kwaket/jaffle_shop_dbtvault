@@ -46,6 +46,7 @@ models:
       pit:
         tags:
           - 'pit'
+        materialized: view
     data_marts:
       tags:
         - 'data_marts'
