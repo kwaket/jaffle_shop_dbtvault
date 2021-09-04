@@ -44,7 +44,6 @@ models:
         tags:
           - 'satellite'
       pit:
-        materialized: view
         tags:
           - 'pit'
     data_marts:
