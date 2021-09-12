@@ -43,11 +43,12 @@ models:
       sats:
         tags:
           - 'satellite'
+    business_vault:
+      materialized: view
       pit:
         tags:
           - 'pit'
-        materialized: view
-    data_marts:
-      tags:
-        - 'data_marts'
+      rdm:
+        tags:
+          - 'rdm'
       materialized: view
